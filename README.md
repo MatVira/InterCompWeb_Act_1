@@ -19,6 +19,7 @@ La página incluye:
 ESTRUCTURA DEL PROYECTO
 ------------------------------------------------------------
 
+
 ActividadN1/
 │
 ├── index.html            → Archivo principal HTML.
@@ -26,6 +27,7 @@ ActividadN1/
 │   └── styles.css        → Archivo de estilos CSS personalizados.
 └── Recursos/
     └── imagen1.jpg       → Imagen utilizada en la web.
+
 
 ------------------------------------------------------------
 INSTRUCCIONES PARA VISUALIZAR
@@ -41,8 +43,8 @@ Crea un archivo HTML que contenga los siguientes elementos:
 
 Parte 4: Listas en HTML
 Crea una sección en tu archivo HTML donde incluyas:
--	Una lista ordenada (<ol>) de tus películas favoritas.
--	Una lista desordenada (<ul>) de tus canciones favoritas.
+-	Una lista ordenada ( <ol> ) de tus películas favoritas.
+-	Una lista desordenada ( <ul> ) de tus canciones favoritas.
 
 ![Image](https://github.com/user-attachments/assets/2dd42161-439f-4594-ba99-c916900343f1)
 
@@ -64,7 +66,6 @@ Aquí puedes insertar una imagen representativa del proyecto, por ejemplo:
 2. Guarda la imagen dentro de la carpeta `Recursos/` (puede llamarse `captura.png`).
 3. Opcionalmente, si subes este proyecto a GitHub, puedes usar este formato Markdown para mostrarla:
 
-![Vista previa del proyecto](Recursos/captura.png)
 
 ------------------------------------------------------------
 AUTOR
