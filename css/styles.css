@@ -96,8 +96,8 @@ li {
     border-radius:  4px;
 }
   
-@media (max-width: 768px) {
-    .row {
-      flex-direction:  column;
-}
+@media (max-width:  768px) {
+    .row  {
+      flex-direction: column;
+    }
 }
