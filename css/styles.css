@@ -1,18 +1,17 @@
 body {
-    background: linear-gradient(to right, #55a246, #70ca94, #a3f0d8);
+    background: linear-gradient(to  right, #55a246, #70ca94, #a3f0d8);
     font-family: Arial, serif;
-    margin: 10;
     padding: 25px;
 }
   
 header {
     text-align: center;
-    padding: 20px 0;
+    padding: 25px;
 }
   
- h1 {
+
+h1 {
     font-weight: bold;
-    margin: 0;
 }
   
 h2, h3 {
@@ -21,17 +20,17 @@ h2, h3 {
   
 .container {
     background: rgb(255, 255, 255);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    padding: 20px;
-    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow:  0 4px 8px rgba(0,0,0,0.1);
+    padding: 25px;
+    margin: 25px auto;
     max-width: 1000px;
 }
   
 .row {
     display:  flex;
     flex-wrap:  wrap;
-    gap: 25px;
+    gap: 30px;
 }
   
 .col-1 {
@@ -40,27 +39,26 @@ h2, h3 {
 }
   
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    max-width:  100%;
+    height:  auto;
+    border-radius: 10px;
 }
   
 .btn-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 15px;
-    margin-top: 100px;
+    margin-top: 102px;
 }
   
-.btn {
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    text-align: center;
-    font-weight: bold;
-    transition: all 0.3s;
-}
+    .btn {
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        transition: all 0.3s;
+    }
   
 .btn-outline-primary {
     border: 2px  solid #0d6efd;
@@ -74,7 +72,7 @@ img {
 
 .listados{
     text-align: center;
-    padding: 20px 0;
+    padding: 25px 0;
 }
   
 .list-container {
@@ -82,24 +80,24 @@ img {
 }
   
 ol {
-    list-style-type: decimal;
-    padding-left: 20px;
+    list-style-type:  decimal;
+    padding-left:  20px;
 }
   
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type:  disc;
+    padding-left:  20px;
 }
   
 li {
-    margin-bottom: 8px;
-    padding: 8px;
-    background: #9abfc5;
-    border-radius: 4px;
+    margin-bottom:  8px;
+    padding:  8px;
+    background:  #9abfc5;
+    border-radius:  4px;
 }
   
 @media (max-width: 768px) {
     .row {
-      flex-direction: column;
+      flex-direction:  column;
 }
 }
