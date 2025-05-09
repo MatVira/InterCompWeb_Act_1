@@ -1,8 +1,8 @@
 body {
     background: linear-gradient(to right, #55a246, #70ca94, #a3f0d8);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+    font-family: Arial, serif;
+    margin: 10;
+    padding: 25px;
 }
   
 header {
@@ -21,7 +21,7 @@ h2, h3 {
   
 .container {
     background: rgb(255, 255, 255);
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     padding: 20px;
     margin: 20px auto;
@@ -29,14 +29,14 @@ h2, h3 {
 }
   
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    display:  flex;
+    flex-wrap:  wrap;
+    gap: 25px;
 }
   
-.col {
-    flex: 1;
-    min-width: 300px;
+.col-1 {
+    flex:  1;
+    min-width:  300px;
 }
   
 img {
@@ -63,23 +63,13 @@ img {
 }
   
 .btn-outline-primary {
-    border: 2px solid #0d6efd;
+    border: 2px  solid #0d6efd;
     color: #0d6efd;
 }
   
-.btn-outline-primary:hover {
-    background: #0d6efd;
-    color: white;
-}
-  
 .btn-outline-danger {
-    border: 2px solid #dc3545;
+    border: 2px  solid #dc3545;
     color: #dc3545;
-}
-  
-.btn-outline-danger:hover {
-    background: #dc3545;
-    color: white;
 }
 
 .listados{
